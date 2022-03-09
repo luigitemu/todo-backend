@@ -12,6 +12,7 @@
     "lint:fix": "npm run lint -- --fix",
     "test": "jest --verbose"
   },
+  "engines": { "node": "^16.13.1" },
   "author": "",
   "license": "ISC",
   "devDependencies": {
