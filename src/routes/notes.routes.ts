@@ -12,7 +12,7 @@ import { validateFields } from "./../middlewares/validateFields";
 
 const router = Router();
 
-router.get("/:id", getNoteByUser);
+router.get("/:id", validateJWT, getNoteByUser);
 router.post(
   "/",
   [
