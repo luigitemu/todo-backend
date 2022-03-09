@@ -3,6 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "./dist/src/server.js",
+  "compilerOption": {
+    "skipLibCheck": true,
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es6",
+    "outDir": "dist"
+  },
   "scripts": {
     "dev": "ts-node-dev ./src/server.ts",
     "start": "ts-node ./dist/src/server.js",
